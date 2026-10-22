@@ -1,0 +1,16 @@
+/* Друк: плакат біяграфіі, урок, ручнік */
+@page{ size:A4; margin:14mm }
+html{ font-size:12pt }
+body{ background:#fff!important; color:#000!important }
+.topbar,.footer,.bottomnav,.totop,.guide,.demo-bar,.toast,.a11y-panel,.drawer,.preloader,.thread,.crumbs,.btns,.btn,.no-print,#heroCandle,#heroAudio,.doll-strip,.filters,.modal,.skip{ display:none!important }
+.card{ box-shadow:none!important; border:1px solid #999 }
+.reveal{ opacity:1!important; transform:none!important }
+.hp{ grid-template-columns:55mm 1fr!important; gap:8mm }
+.portrait{ box-shadow:none; aspect-ratio:3/4 }
+.portrait .p-old{ opacity:1!important }
+.portrait__hint{ display:none }
+.section{ margin:5mm 0!important; break-inside:avoid }
+a{ color:#000; text-decoration:none }
+.page::before{ content:"Нітки памяці · Дочкі Беларусі"; display:block; font:700 10pt sans-serif; color:#C8102E; letter-spacing:.1em; text-transform:uppercase; border-bottom:3px double #C8102E; padding-bottom:3mm; margin-bottom:5mm }
+.qrbox canvas{ width:35mm!important; height:35mm!important }
+.todo{ outline:none }
